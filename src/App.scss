@@ -1,5 +1,9 @@
 @import './satoshi.scss';
 
+body {
+  margin: 0;
+}
+
 .flex-container {
   display: -ms-flexbox;
   display: -webkit-flex;
