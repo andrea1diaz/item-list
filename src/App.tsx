@@ -37,7 +37,7 @@ function App(props: any) {
 
     const update = (event: FormEvent<HTMLDivElement>) => {
       console.log(event.currentTarget)
-      props.editTitle(event.currentTarget.id, value)
+      //props.editTitle(event.currentTarget.id, value)
     }
 
   return (

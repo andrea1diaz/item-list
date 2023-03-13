@@ -19,8 +19,6 @@ export function configureFakeBackend() {
 
                 if ((url as string).match(/\/items\/\d+$/) && opts!.method === 'PUT') {
                     let params = opts!.body;
-
-                    console.log(params)
                     /*file.key = "new value";
                         
                     fs.writeFile(fileName, JSON.stringify(file), function writeJSON(err) {
